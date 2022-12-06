@@ -1,0 +1,183 @@
+@font-face {
+	font-family: 'Poetsen';
+	src: url("../fonts/Poetsen/PoetsenOne-Regular.ttf");
+	font-size: 1em;
+}
+
+
+
+	@media screen and (min-width: 200px) and (max-width: 900px) {
+
+		header {
+			background-color: #0f1111;
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/5.png");
+			background-size: 100%;
+			width: 100%;
+			height: 600px;
+			padding-top: 200px;
+		}
+
+		.hamburguer{
+
+			width: 100%;
+			height: 600px;
+		}
+
+		#menu li{
+			font-size: 50px;
+			font-weight: bold;
+			text-align: left;
+		}
+
+		a:link{
+		color: white;	
+		
+		}
+
+		a:hover{
+
+			color: white;
+		}
+
+		a{
+			color: white;
+			
+		}
+
+		img{
+
+			width:100%;
+			height:100%;
+		
+	
+		}
+
+	
+
+		footer{
+			
+		
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/6.png");
+			background-size: 100%;
+			width: 100%;
+			height: 240px;
+			padding-top: 65px;
+			
+		}
+
+		p{
+			font-size: 35px;
+		}
+
+		.col-phone{
+			color: white;
+			list-style: none;
+			text-align: center;
+		}
+
+		.col-instagram{
+			color: white;
+			list-style: none;
+			text-align: center;
+		}
+
+		.col-facebook{
+			color: white;
+			list-style: none;
+			text-align: center;
+		}
+
+
+	}
+		
+
+	@media screen and (min-width:900px) {
+
+		header {
+			background-color: #ffcd4e;
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/5.png");
+			background-size: 100% ;
+			width: 100%;
+			height: 500px;
+			padding: 150px 0px 0px 0px;
+	
+		}
+
+		
+
+		#menu li{
+			font-size: 30px;
+			font-weight: bold;
+			text-align: left;
+			width: 100%;
+		}
+
+		.hamburguer{
+
+			width: 100%;
+			height: 600px;
+		}
+
+		a:link{
+		color: white;	
+		
+		}
+
+		a:hover{
+
+			color: white;
+		}
+
+		a{
+			color: white;
+		}
+
+		img{
+
+			width:100%;
+			height:100%;
+		
+	
+		}
+
+	
+
+		footer{
+			
+			background-color: white;
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/6.png");
+			background-size: 100%;
+			width: 100%;
+			height: 240px;
+			padding: 65px 0px 0px 0px;
+			
+		}
+
+		p{
+			font-size: 35px;
+		}
+
+		.col-phone{
+			color: white;
+			list-style: none;
+			text-align: center;
+			
+			
+		}
+
+		.col-instagram{
+			color: white;
+			list-style: none;
+			text-align: center;
+			
+			
+		}
+
+		.col-facebook{
+			color: white;
+			list-style: none;
+			text-align: center;
+			
+		}
+		
+	}
