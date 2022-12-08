@@ -8,18 +8,20 @@
 
 	@media screen and (min-width: 200px) and (max-width: 900px) {
 
+	
+
 		header {
 			background-color: #0f1111;
-			background-image: url("../png/5.png");
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/5.png");
 			background-size: 100%;
-			width: 100%;
+			max-width: 100%;
 			height: 600px;
-			padding-top: 200px;
+			padding: 200px 0px 0px 0px;
 		}
 
 		.hamburguer{
 
-			width: 100%;
+			max-width: 100%;
 			height: 600px;
 		}
 
@@ -27,6 +29,9 @@
 			font-size: 50px;
 			font-weight: bold;
 			text-align: left;
+			width: 100%
+			padding: 0px 0px 0px 0px;
+			list-style: none;
 		}
 
 		a:link{
@@ -53,15 +58,22 @@
 		}
 
 	
+		.row{
+
+			padding: 0px 0px 0px 0px;
+			margin: 0px 0px 0px 0px;
+		}
+	
+
 
 		footer{
 			
 		
-			background-image: url("../png/6.png");
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/6.png");
 			background-size: 100%;
-			width: 100%;
+			max-width: 100%;
 			height: 240px;
-			padding-top: 65px;
+			padding: 65px 0px 0px 0px;
 			
 		}
 
@@ -93,11 +105,15 @@
 
 	@media screen and (min-width:900px) {
 
+
+
+
+
 		header {
 			background-color: #ffcd4e;
-			background-image: url("../png/5.png");
-			background-size: 100% ;
-			width: 100%;
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/5.png");
+			background-size: 100%;
+			max-width: 100%;
 			height: 500px;
 			padding: 150px 0px 0px 0px;
 	
@@ -110,11 +126,13 @@
 			font-weight: bold;
 			text-align: left;
 			width: 100%;
+			padding: 0px 0px 0px 0px;
+			list-style: none;
 		}
 
 		.hamburguer{
 
-			width: 100%;
+			max-width: 100%;
 			height: 600px;
 		}
 
@@ -140,14 +158,20 @@
 	
 		}
 
+
+		.row{
+
+			padding: 0px 0px 0px 0px;
+			margin: 0px 0px 0px 0px;
+		}
 	
 
 		footer{
 			
 			background-color: white;
-			background-image: url("../png/6.png");
+			background-image: url("C:/Users/p_nas/Desktop/TI/Cliente_1/Hamburgueria-Coma-Bem/png/6.png");
 			background-size: 100%;
-			width: 100%;
+			max-width: 100%;
 			height: 240px;
 			padding: 65px 0px 0px 0px;
 			
