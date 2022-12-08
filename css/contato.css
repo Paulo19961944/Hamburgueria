@@ -8,74 +8,69 @@
 
 	@media screen and (min-width: 200px) and (max-width: 900px) {
 
+
 		header {
 			background-color: #0f1111;
 			background-image: url("../png/5.png");
 			background-size: 100%;
 			max-width: 100%;
 			height: 600px;
-			padding-top: 200px;
+			padding: 200px 0px 0px 0px;
 		}
 
-		.hamburguer{
-
-			max-width: 100%;
-			height: 600px;
-		}
+		
 
 		#menu li{
 			font-size: 50px;
 			font-weight: bold;
 			text-align: left;
-			max-width: 100%;
+			width: 100%
+			padding: 0px 0px 0px 0px;
 			list-style: none;
 		}
 
 		a:link{
 		color: white;	
-	
 		
 		}
 
 		a:hover{
 
 			color: white;
-		
 		}
 
 		a{
 			color: white;
 			
-			
 		}
 
 		img{
 
-			max-width:100%;
+			width:100%;
 			height:100%;
 		
 	
 		}
 
 	
-
-		footer{
-			
-			background-color: white;
-			background-image: url("../png/6.png");
-			background-size: 100%;
-			max-width: 100%;
-			height: 240px;
-			padding: 65px 0px 0px 0px;
-			border-top: 0px;
-		}
-
 		.row{
 
 			padding: 0px 0px 0px 0px;
 			margin: 0px 0px 0px 0px;
 		}
 	
+
+
+		footer{
+			
+		
+			background-image: url("../png/6.png");
+			background-size: 100%;
+			max-width: 100%;
+			height: 240px;
+			padding: 65px 0px 0px 0px;
+			
+		}
 
 		p{
 			font-size: 35px;
@@ -85,14 +80,12 @@
 			color: white;
 			list-style: none;
 			text-align: center;
-			
 		}
 
 		.col-instagram{
 			color: white;
 			list-style: none;
 			text-align: center;
-			
 		}
 
 		.col-facebook{
@@ -110,10 +103,10 @@
 		header {
 			background-color: #ffcd4e;
 			background-image: url("../png/5.png");
-			background-size: 100% 100%;
+			background-size: 100%;
 			max-width: 100%;
 			height: 500px;
-			padding-top: 150px;
+			padding: 150px 0px 0px 0px;
 	
 		}
 
@@ -123,10 +116,12 @@
 			font-size: 30px;
 			font-weight: bold;
 			text-align: left;
-			max-width: 100%;
+			width: 100%;
+			padding: 0px 0px 0px 0px;
 			list-style: none;
-		
 		}
+
+	
 
 		a:link{
 		color: white;	
@@ -136,7 +131,6 @@
 		a:hover{
 
 			color: white;
-			
 		}
 
 		a{
@@ -145,23 +139,10 @@
 
 		img{
 
-			max-width:100%;
+			width:100%;
 			height:100%;
 		
 	
-		}
-
-	
-
-		footer{
-			
-			background-color: white;
-			background-image: url("../png/6.png");
-			background-size: 100%;
-			max-width: 100%;
-			height: 240px;
-			padding: 65px 0px 0px 0px;
-			border-top: 0px;
 		}
 
 
@@ -172,6 +153,17 @@
 		}
 	
 
+		footer{
+			
+			background-color: white;
+			background-image: url("../png/6.png");
+			background-size: 100%;
+			max-width: 100%;
+			height: 240px;
+			padding: 65px 0px 0px 0px;
+			
+		}
+
 		p{
 			font-size: 35px;
 		}
@@ -181,6 +173,7 @@
 			list-style: none;
 			text-align: center;
 			
+			
 		}
 
 		.col-instagram{
@@ -188,12 +181,14 @@
 			list-style: none;
 			text-align: center;
 			
+			
 		}
 
 		.col-facebook{
 			color: white;
 			list-style: none;
 			text-align: center;
+			
 		}
 		
 	}
